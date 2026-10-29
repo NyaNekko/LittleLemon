@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Little Lemon Restaurant</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 850px; margin: 50px auto; padding: 0 20px; color: #243b35; }
+    header { border-bottom: 4px solid #495e57; padding-bottom: 18px; }
+    h1 { letter-spacing: .08em; }
+    a { color: #286b55; }
+    code { background: #f1f4f2; padding: 3px 6px; }
+    li { margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <header><h1>LITTLE LEMON</h1><p>Restaurant API and table booking service</p></header>
+  <main>
+    <h2>Welcome</h2>
+    <p>This Django site serves HTML and exposes a REST API for menu items and table bookings.</p>
+    <ul>
+      <li><a href="/api/menu/">Menu API</a></li>
+      <li><a href="/api/bookings/">Bookings API</a> (sign in required)</li>
+      <li><a href="/api/register/">Registration endpoint</a> (POST JSON)</li>
+      <li><a href="/api-auth/login/">Browsable API login</a></li>
+      <li><a href="/admin/">Django administration</a></li>
+    </ul>
+    <p>Use Insomnia to send POST, PUT, PATCH, and DELETE requests to the API endpoints.</p>
+  </main>
+</body>
+</html>
